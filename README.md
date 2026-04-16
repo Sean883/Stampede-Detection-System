@@ -102,12 +102,4 @@ python make_dashboard_alert.py
 - `yolov8n.pt` is required for YOLO inference and is downloaded automatically by Ultralytics if not present.
 
 ## Authors
-
-- Bipasa Dutta (17562)
-- Shivom Singh (17588)
-- Teena Khorwal (17458)
-
-**Supervisor:** Dr Sanjeev Kumar
-
-Dronacharya Group of Institutions, Greater Noida
-Dr. A. P. J. Abdul Kalam Technical University
+- Shivom Singh 
