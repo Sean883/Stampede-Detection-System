@@ -1,47 +1,51 @@
-# RTSDA — Real-Time Surveillance and Density Analysis System
+# Stampede Detection System (RTSDA)
 
-A desktop application for real-time crowd safety monitoring using computer vision and pedestrian dynamics theory.
+Real-time crowd safety monitoring using computer vision, density estimation, and crowd dynamics analysis.
+
+## Overview
+
+This repository contains a desktop application and supporting tools for detecting crowd stampede risk, monitoring pedestrian density, and generating safety reports.
+
+Key capabilities:
+- Person detection and tracking with YOLOv8
+- Crowd density estimation using a hybrid YOLO/CSRNet-lite model
+- Motion and optical flow analysis for dynamic risk assessment
+- Bottleneck, speed anomaly, and counterflow scoring
+- Real-time Tkinter dashboard with alerts and event logging
 
 ## Features
 
-- **Person Detection & Tracking** — YOLOv8n + ByteTrack multi-object tracking
-- **Density Estimation** — Hybrid blend of YOLO counting (60%) and CSRNet-lite regression (40%)
-- **Optical Flow Analysis** — Farneback algorithm for crowd motion quantification
-- **Bottleneck Detection** — Multi-signal fusion (gap score, packing, flow compression)
-- **Speed Anomaly Detection** — Weidmann fundamental diagram comparison with 40% dead zone
+- **Person Detection & Tracking** — YOLOv8n with ByteTrack-style tracking
+- **Density Estimation** — Hybrid blend of YOLO counting and CSRNet-lite regression
+- **Optical Flow Analysis** — Farneback-based crowd motion quantification
+- **Bottleneck Detection** — Gap score, packing, and flow compression fusion
+- **Speed Anomaly Detection** — Weidmann fundamental diagram comparison
 - **Counterflow Metric** — Velocity variance analysis for opposing crowd flows
-- **Unified Risk Scoring** — 5-signal weighted combination (density, motion, bottleneck, anomaly, counterflow)
-- **Real-Time Dashboard** — Tkinter GUI with live video, metric cards, charts, event log, audio alerts
-- **Multi-Camera Support** — 2x2 grid view with independent analysis workers
-- **Auto-Calibration** — Automatic density saturation from first 75 frames
+- **Unified Risk Scoring** — Weighted combination of five risk signals
+- **Real-Time Dashboard** — Live video, charts, metrics, event log, and audio alerts
+- **Multi-Camera Support** — Grid layout with independent worker analysis
+- **Auto-Calibration** — Early saturation estimation from initial frames
 
-## Project Structure
+## Repository Structure
 
-```
-├── dashboard.py          # Main GUI application (Tkinter)
-├── test8.py              # Core analysis algorithms (pure functions)
-├── density_model.py      # CSRNet-lite density estimation model
-├── detector.py           # YOLOv8 detection abstraction
-├── train_yolo.py         # YOLO fine-tuning pipeline (CrowdHuman)
-├── train_risk.py         # Risk labelling GUI + logistic regression training
-├── risk_labels.json      # Training labels for risk classification
-├── generate_report.js    # Project report generator (docx)
-├── package.json          # Node.js dependencies for report generation
-├── figures/              # Diagram images for the report
-│   ├── weidmann_speed_density_curve.png
-│   ├── yolov8_detection_pipeline.png
-│   ├── rtsda_system_context_diagram.png
-│   ├── density_blending_diagram_rtsda_1.png
-│   ├── bottleneck_signal_fusion_1.png
-│   ├── threading_architecture.png
-│   ├── crowd_crush_fatalities.png
-│   └── logo.png
-├── make_weidmann_plot.py         # Generates Weidmann diagram
-├── make_architecture_diagram.py  # Generates system architecture diagram
-├── make_risk_flowchart.py        # Generates risk flowchart
-├── make_dashboard_normal.py      # Generates dashboard (normal) mockup
-├── make_dashboard_alert.py       # Generates dashboard (alert) mockup
-└── .gitignore
+```text
+├── dashboard.py                # Main GUI application
+├── test8.py                    # Core crowd analysis logic
+├── density_model.py            # CSRNet-lite density model definition
+├── detector.py                 # YOLOv8 detection wrapper
+├── train_yolo.py               # YOLO training pipeline for CrowdHuman
+├── train_risk.py               # Risk label training and model creation
+├── risk_labels.json            # Risk label definitions
+├── generate_report.js          # Word report generation script
+├── package.json                # Node dependencies for report generation
+├── figures/                    # Report and architecture figures
+├── make_architecture_diagram.py # Diagram generation script
+├── make_risk_flowchart.py      # Risk flowchart generator
+├── make_weidmann_plot.py       # Weidmann diagram generator
+├── make_dashboard_normal.py    # Dashboard normal-mode mockup generator
+├── make_dashboard_alert.py     # Dashboard alert-mode mockup generator
+├── .gitignore                  # Ignored files and folders
+└── README.md                   # Project documentation
 ```
 
 ## Requirements
@@ -53,41 +57,49 @@ A desktop application for real-time crowd safety monitoring using computer visio
 
 ```bash
 pip install opencv-python numpy Pillow matplotlib
-pip install ultralytics          # YOLOv8 (recommended)
-pip install torch torchvision    # For CSRNet-lite density model
-pip install scikit-learn         # For risk classification training
+pip install ultralytics
+pip install torch torchvision
+pip install scikit-learn
+```
+
+### Node.js Dependencies
+
+```bash
+npm install
 ```
 
 ## Usage
 
-### Running the Dashboard
+### Run the dashboard
 
 ```bash
 python dashboard.py
 ```
 
-Select a video source (file, webcam index, or RTSP URL) when prompted.
+Choose a video source when prompted: file path, webcam index, or RTSP stream.
 
-### Generating the Report
+### Generate the report
 
 ```bash
 npm install
 node generate_report.js
 ```
 
-### Regenerating Diagrams
+### Regenerate diagrams
 
 ```bash
-python make_weidmann_plot.py
 python make_architecture_diagram.py
 python make_risk_flowchart.py
+python make_weidmann_plot.py
 python make_dashboard_normal.py
 python make_dashboard_alert.py
 ```
 
-## Model Weights
+## Notes
 
-YOLOv8n weights (`yolov8n.pt`) are not included due to size. They will be downloaded automatically by Ultralytics on first run, or download manually from [Ultralytics](https://github.com/ultralytics/assets/releases).
+- The repository excludes generated output folders such as `plot/` and `snapshots/`.
+- Large model files and datasets are not tracked in Git.
+- `yolov8n.pt` is required for YOLO inference and is downloaded automatically by Ultralytics if not present.
 
 ## Authors
 
