@@ -1,0 +1,583 @@
+{
+  "video": "C:/Users/seans/Desktop/project_videos/my_crowd_video_.mp4",
+  "timestamp": "2026-03-31T00:32:14.973056",
+  "sample_interval": 15,
+  "labels": {
+    "15": {
+      "label": 1,
+      "density": 0.04,
+      "motion": 0.10641758143901825,
+      "bottleneck": 0.0
+    },
+    "30": {
+      "label": 1,
+      "density": 0.04,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "45": {
+      "label": 1,
+      "density": 0.08,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "60": {
+      "label": 1,
+      "density": 0.08,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "75": {
+      "label": 1,
+      "density": 0.04,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "90": {
+      "label": 1,
+      "density": 0.04,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "105": {
+      "label": 1,
+      "density": 0.04,
+      "motion": 0.6856954480541976,
+      "bottleneck": 0.0
+    },
+    "120": {
+      "label": 1,
+      "density": 0.04,
+      "motion": 0.30121452725675485,
+      "bottleneck": 0.0
+    },
+    "135": {
+      "label": 1,
+      "density": 0.04,
+      "motion": 0.34121017054175384,
+      "bottleneck": 0.0
+    },
+    "150": {
+      "label": 1,
+      "density": 0.04,
+      "motion": 0.4475735435994346,
+      "bottleneck": 0.0
+    },
+    "165": {
+      "label": 1,
+      "density": 0.04,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "180": {
+      "label": 1,
+      "density": 0.04,
+      "motion": 0.9385908271606973,
+      "bottleneck": 0.0
+    },
+    "195": {
+      "label": 1,
+      "density": 0.04,
+      "motion": 0.6941976169358492,
+      "bottleneck": 0.0
+    },
+    "210": {
+      "label": 1,
+      "density": 0.04,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "225": {
+      "label": 1,
+      "density": 0.04,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "240": {
+      "label": 1,
+      "density": 0.04,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "255": {
+      "label": 1,
+      "density": 0.04,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "270": {
+      "label": 1,
+      "density": 0.04,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "285": {
+      "label": 1,
+      "density": 0.04,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "300": {
+      "label": 1,
+      "density": 0.0,
+      "motion": 0.20173358917236328,
+      "bottleneck": 0.0
+    },
+    "315": {
+      "label": 1,
+      "density": 0.0,
+      "motion": 0.17397703230381012,
+      "bottleneck": 0.0
+    },
+    "330": {
+      "label": 1,
+      "density": 0.0,
+      "motion": 0.5352425996435533,
+      "bottleneck": 0.0
+    },
+    "345": {
+      "label": 1,
+      "density": 0.04,
+      "motion": 0.1586962640285492,
+      "bottleneck": 0.0
+    },
+    "360": {
+      "label": 1,
+      "density": 0.04,
+      "motion": 0.161552295088768,
+      "bottleneck": 0.0
+    },
+    "375": {
+      "label": 1,
+      "density": 0.0,
+      "motion": 0.16205598413944244,
+      "bottleneck": 0.0
+    },
+    "390": {
+      "label": 1,
+      "density": 0.0,
+      "motion": 0.16658538579940796,
+      "bottleneck": 0.0
+    },
+    "405": {
+      "label": 1,
+      "density": 0.0,
+      "motion": 0.16237486898899078,
+      "bottleneck": 0.0
+    },
+    "420": {
+      "label": 1,
+      "density": 0.0,
+      "motion": 0.21577239036560059,
+      "bottleneck": 0.0
+    },
+    "435": {
+      "label": 1,
+      "density": 0.0,
+      "motion": 0.24407736957073212,
+      "bottleneck": 0.0
+    },
+    "450": {
+      "label": 1,
+      "density": 0.0,
+      "motion": 0.3241717219352722,
+      "bottleneck": 0.0
+    },
+    "465": {
+      "label": 1,
+      "density": 0.0,
+      "motion": 0.48505544662475586,
+      "bottleneck": 0.0
+    },
+    "480": {
+      "label": 1,
+      "density": 0.0,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "495": {
+      "label": 1,
+      "density": 0.04,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "510": {
+      "label": 2,
+      "density": 0.04,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "525": {
+      "label": 2,
+      "density": 0.08,
+      "motion": 0.4318341314792633,
+      "bottleneck": 0.0
+    },
+    "540": {
+      "label": 2,
+      "density": 0.0,
+      "motion": 0.3634880781173706,
+      "bottleneck": 0.0
+    },
+    "555": {
+      "label": 2,
+      "density": 0.04,
+      "motion": 0.3586817681789398,
+      "bottleneck": 0.0
+    },
+    "570": {
+      "label": 2,
+      "density": 0.04,
+      "motion": 0.27005594968795776,
+      "bottleneck": 0.0
+    },
+    "585": {
+      "label": 2,
+      "density": 0.04,
+      "motion": 0.32258516550064087,
+      "bottleneck": 0.0
+    },
+    "600": {
+      "label": 2,
+      "density": 0.0,
+      "motion": 0.27966561913490295,
+      "bottleneck": 0.0
+    },
+    "615": {
+      "label": 2,
+      "density": 0.04,
+      "motion": 0.2721412479877472,
+      "bottleneck": 0.0
+    },
+    "630": {
+      "label": 2,
+      "density": 0.04,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "645": {
+      "label": 2,
+      "density": 0.04,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "660": {
+      "label": 2,
+      "density": 0.04,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "675": {
+      "label": 2,
+      "density": 0.08,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "690": {
+      "label": 2,
+      "density": 0.04,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "705": {
+      "label": 2,
+      "density": 0.08,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "720": {
+      "label": 2,
+      "density": 0.08,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "735": {
+      "label": 2,
+      "density": 0.08,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "750": {
+      "label": 2,
+      "density": 0.12,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "765": {
+      "label": 2,
+      "density": 0.12,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "780": {
+      "label": 2,
+      "density": 0.12,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "795": {
+      "label": 2,
+      "density": 0.12,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "810": {
+      "label": 2,
+      "density": 0.12,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "825": {
+      "label": 2,
+      "density": 0.12,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "840": {
+      "label": 2,
+      "density": 0.16,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "855": {
+      "label": 2,
+      "density": 0.12,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "870": {
+      "label": 2,
+      "density": 0.16,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "885": {
+      "label": 2,
+      "density": 0.16,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "900": {
+      "label": 2,
+      "density": 0.04,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "960": {
+      "label": 2,
+      "density": 0.04,
+      "motion": 0.7593291401863098,
+      "bottleneck": 0.0
+    },
+    "975": {
+      "label": 2,
+      "density": 0.08,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "990": {
+      "label": 2,
+      "density": 0.04,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "1005": {
+      "label": 2,
+      "density": 0.08,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "1020": {
+      "label": 2,
+      "density": 0.08,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "1035": {
+      "label": 2,
+      "density": 0.08,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "1050": {
+      "label": 2,
+      "density": 0.08,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "1065": {
+      "label": 2,
+      "density": 0.08,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "1080": {
+      "label": 2,
+      "density": 0.04,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "1095": {
+      "label": 2,
+      "density": 0.08,
+      "motion": 0.1604674756526947,
+      "bottleneck": 0.0
+    },
+    "1110": {
+      "label": 2,
+      "density": 0.04,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "1125": {
+      "label": 2,
+      "density": 0.12,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "1140": {
+      "label": 2,
+      "density": 0.08,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "1155": {
+      "label": 2,
+      "density": 0.08,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "1170": {
+      "label": 2,
+      "density": 0.0,
+      "motion": 0.04414571449160576,
+      "bottleneck": 0.0
+    },
+    "1185": {
+      "label": 0,
+      "density": 0.0,
+      "motion": 0.050181061029434204,
+      "bottleneck": 0.0
+    },
+    "1200": {
+      "label": 0,
+      "density": 0.0,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "1215": {
+      "label": 0,
+      "density": 0.0,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "1230": {
+      "label": 0,
+      "density": 0.0,
+      "motion": 0.0993502140045166,
+      "bottleneck": 0.0
+    },
+    "1245": {
+      "label": 0,
+      "density": 0.0,
+      "motion": 0.04419390484690666,
+      "bottleneck": 0.0
+    },
+    "1260": {
+      "label": 0,
+      "density": 0.0,
+      "motion": 0.26238006353378296,
+      "bottleneck": 0.0
+    },
+    "1275": {
+      "label": 0,
+      "density": 0.04,
+      "motion": 0.38116833567619324,
+      "bottleneck": 0.0
+    },
+    "1290": {
+      "label": 0,
+      "density": 0.04,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "1305": {
+      "label": 0,
+      "density": 0.08,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "1320": {
+      "label": 0,
+      "density": 0.04,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "1335": {
+      "label": 0,
+      "density": 0.08,
+      "motion": 0.21532896161079407,
+      "bottleneck": 0.0
+    },
+    "1350": {
+      "label": 0,
+      "density": 0.04,
+      "motion": 0.18309250473976135,
+      "bottleneck": 0.0
+    },
+    "1365": {
+      "label": 0,
+      "density": 0.08,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "1380": {
+      "label": 0,
+      "density": 0.0,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "1395": {
+      "label": 0,
+      "density": 0.08,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "1410": {
+      "label": 0,
+      "density": 0.12,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "1425": {
+      "label": 0,
+      "density": 0.08,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "1440": {
+      "label": 0,
+      "density": 0.16,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "1455": {
+      "label": 0,
+      "density": 0.12,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "1470": {
+      "label": 0,
+      "density": 0.08,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    },
+    "1485": {
+      "label": 0,
+      "density": 0.08,
+      "motion": 1.0,
+      "bottleneck": 0.0
+    }
+  }
+}

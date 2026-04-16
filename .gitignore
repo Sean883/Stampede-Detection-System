@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Datasets (too large for GitHub)
+datasets/
+
+# Pre-trained model weights (download separately)
+*.pt
+
+# Generated report (regenerate with: node generate_report.js)
+*.docx
+
+# IDE / tool config
+.claude/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Generated diagrams (regenerate with make_*.py scripts)
+weidmann_diagram.png
+system_architecture.png
+risk_flowchart.png
+fig_dashboard_gui.png
+fig_dashboard_alert.png
+
+# Project outputs to exclude
+plot/
+snapshots/
